@@ -180,9 +180,9 @@ onMounted(() => {
   const context = canvas.getContext("2d");
   const img = new Image();
   img.crossOrigin = "anonymous";
-  img.src = "https://res.cloudinary.com/nioperas06/image/upload/v1683645612/Schema_pmz6mr.png";
+  img.src = "https://res.cloudinary.com/nioperas06/image/upload/v1686640423/rsz_1frame_1_tix3fp.png";
   img.onload = () => {
-    context.drawImage(img, 0, 0, 500, 500);
+    context.drawImage(img, 0, 0, 200, 400);
   }
 });
 
